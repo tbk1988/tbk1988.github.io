@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{hyperref}
+
+\title{$\tau$-critical graphs}
+
+\begin{document}
+
+\section{$\tau$-critical graphs}
+
+Here we study a graph class called $\tau$-critical graphs.
+
+{\bf Definition 1.} A graph $G$ is $\tau$-critical if $\tau(G') < \tau(G)$ for all proper subgraphs $G'$ of $G$, where $\tau(\cdot) = n(\cdot) - \alpha(\cdot)$.
+
+Source code for this project may be found in \href{https://github.com/tbk1988/taucritical}{this Github repository}.
+
+More information on $\tau$-critical graphs may be found in
+\cite{thesis}.
+
+\section{Enumeration}
+
+All graphs are here listed in graph6 format for reference.
+
+\begin{tabular}{lr}
+  \href{taucrit_1.txt}{$\tau = 1$} & (1 graph) \\
+  \href{taucrit_2.txt}{$\tau = 2$} & (2 graphs) \\
+  \href{taucrit_3.txt}{$\tau = 3$} & (4 graphs) \\
+  \href{taucrit_4.txt}{$\tau = 4$} & (8 graphs) \\
+  \href{taucrit_5.txt}{$\tau = 5$} & (18 graphs) \\
+  \href{taucrit_6.txt}{$\tau = 6$} & (56 graphs)
+\end{tabular}
+
+\begin{thebibliography}{9}
+  \bibitem{thesis} Kr\"uger, Oliver (2019). \emph{On linear graph invariants related to Ramsey and edge numbers: or how I learned to stop worrying and love the alien invasion.} Dissertation. Stockholms universitet, Sweden.
+\end{thebibliography}
+
+\end{document}
